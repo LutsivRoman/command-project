@@ -1,0 +1,88 @@
+#igra{
+	/*background-image: url('../img/1-1.jpg');*/
+	width: 800px;
+    height: 720px;
+	margin: 0 auto;
+	position: relative;
+	border: 2px solid grey;
+	overflow: hidden;
+
+}
+
+#igra img {
+	width: 100%;
+    height: 100%;
+}
+#lifes span {
+	background-image: url('/img/Heart.png');
+	width: 19px;
+	height: 18px;
+	border-radius: 50%;
+	display: block;
+	float: left;	
+}
+#points {
+	font-style: italic;
+	font-weight: bold;
+	font-size: 32px;
+	color: white;
+	position: absolute;
+	width: 120px;
+    height: 60px;
+	top: 10px;
+	left: 10px;
+}
+#points div {
+	background-image: url('/img/scull.png');
+	width: 32px;
+	height: 32px;
+	position: absolute;
+    top: 3px;
+    left: 45px;
+}
+#gun {
+	background-image: url('../img/AA-1.png');
+	width: 40px;
+	height: 40px;
+	border-radius: 50%;
+	position: absolute;
+	/*top: 637px;
+	left: 360px;*/
+	display: block;
+	/*задержка на 2 сек изменения любых элементов*/
+	/*transition: all 0.5s;*/
+}
+
+#snaryad {
+	background-image: url('/img/bombas.png');
+	position: absolute;
+	width: 32px;
+	height: 32px;
+	top: 390px;
+    left: 330px;
+}
+
+
+#position {
+	background-color: white;
+}
+
+.plane {
+	background-image: url('../img/air-force.png');
+	width: 46px;
+	height: 27px;
+	position: absolute;
+
+	
+}
+
+.svoyplane {
+	background-image: url('../img/aircivic.jpg');
+	width: 46px;
+	height: 27px;
+
+}
+
+
+
+
